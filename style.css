@@ -47,6 +47,15 @@ body {
 
 .card {
 	background-color: var(--color-white);
+	max-width: 384px;
+	min-height: 522px;
+	padding: var(--spacing-200);
+	border-radius: 20px;
+}
+
+.article-image {
+	width: 100%;
+	border-radius: 10px;
 }
 
 .attribution {
