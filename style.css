@@ -75,6 +75,10 @@ h6 {
 	.text-3 {
 		font-size: 10px;
 	}
+
+	div.card {
+		height: auto;
+	}
 }
 
 /*** Card ***/
@@ -86,7 +90,7 @@ h6 {
 	background-color: var(--color-white);
 
 	max-width: 384px;
-	max-height: 522px;
+	height: 522px;
 
 	border-radius: 20px;
 	border: 1px solid var(--color-grey-950);
