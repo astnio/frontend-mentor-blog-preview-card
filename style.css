@@ -64,7 +64,6 @@ h6 {
 .card {
 	display: flex;
 	flex-direction: column;
-	gap: var(--spacing-200);
 
 	background-color: var(--color-white);
 
@@ -75,6 +74,12 @@ h6 {
 	border: 1px solid var(--color-grey-950);
 
 	box-shadow: 10px 10px 0px var(--color-grey-950);
+
+	transition: box-shadow 0.25s;
+}
+
+.card:hover {
+	box-shadow: 15px 15px 0px var(--color-grey-950);
 }
 
 .card-image-container,
@@ -103,11 +108,27 @@ img.card-article-image {
 	width: fit-content;
 
 	margin-inline: var(--spacing-250);
+	margin-top: var(--spacing-250);
 
 	padding-inline: var(--spacing-200);
 	padding-block: var(--spacing-100);
 
 	border-radius: 4px;
+}
+
+.card-publish-date {
+	margin-top: var(--spacing-150);
+}
+
+.card-title {
+	margin-top: var(--spacing-200);
+
+	transition: color 0.25s;
+}
+
+.card-title:hover {
+	color: var(--color-yellow);
+	cursor: pointer;
 }
 
 p.card-paragraph {
